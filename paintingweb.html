@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="paints.css">
+    <link rel="stylesheet" href="paintingbootstrap.min.css">
+    <title class="text-dang"> <img src="photot/122.png" alt=""  class="logo"></title>
+    
+</head>
+<body  > 
+
+     <header>
+  <!-- <div class="alert alert-danger">Hand Touch</div> -->
+        <nav style="position: sticky; top: 0; z-index: 1020;">
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="gallary.html">Portfilio </a></li>
+                <li> <a href="#consultationForm" target="_blank"> Contact us</a></li>
+              </ul>
+        </nav>
+
+           <div class="menu-toggle" id=”mobile-menu”>
+                 <I class=”fas fa-bars”></i>
+          </div>
+    </header>
+          <section id="home" class="hero">
+             <div> 
+            <h1 color="Pure"  >Hand Touch</h1>
+            <p>Beautiful Paintings that bring color and life to your world</p>
+             </div> 
+            </section>
+
+         <section id="about" class="about-section">
+                <h2>Why Choose Us</h2>
+                <div class="about-card">
+                <div class="card-icon"><img src="photot/122.png" alt=""  class="logo"></div>
+                <h3>Professional Painting Experts</h3>
+                <p>We have more than 20 years of experience painting houses and offices. Our team uses the best paint to make your rooms look clean, bright, and beautiful.</p>
+                 </div>
+         </section>
+
+            <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">We offer professional painting work for homes and offices.</p> 
+             <div class="services-grid">
+                <div class="service-card">
+                <div class="service-icon"> <img src="photot/122.png" alt=""  class="logo"> </div>
+                 <h3>Interior Painting</h3>
+                <p>We paint walls, ceilings, and doors inside your house to make your rooms look fresh and modern.</p>
+             </div>
+             
+             <div class="service-card">
+                <div class="service-icon"><img src="photot/122.png" alt=""  class="logo"> </div>
+                <h3>Exterior Painting</h3>
+                <p>We protect and paint the outside walls of your building so it looks great in all weather.</p> 
+             </div>
+             <div class="service-card">
+             <div class="service-icon"> <img src="photot/122.png" alt=""  class="logo"> </div>
+             <h3>Decorative Finishes</h3>
+              <p>We add special wall textures and unique designs to give your living room a luxury style.</p>
+             </div>
+             </div>
+          
+         </section>
+
+               <div class="alert alert-primary" role="alert">
+                     Primary (Light Blue): Represents calmness, trust, and relaxation. It is often used in bedrooms or offices because it helps with focus and creates a clean, spacious feeling.</div>
+               <div class="alert alert-secondary" role="alert">
+                     Secondary (Muted Gray): Represents neutrality, modernity, and balance. It is considered a modern staple used to create calm backgrounds that highlight furniture and decor without straining the eye.</div>
+               <div class="alert alert-success" role="alert">
+                     Success (Soft Green): Represents nature, vitality, and visual comfort. It evokes a sense of growth and renewal, and is ideal for spaces that require positive energy and relaxation, such as living rooms.</div>
+                <div class="alert alert-danger" role="alert">
+                     Danger (Pink or Light Red): Represents passion, warmth, or high energy. In paints, it is used very cautiously—often on just a single accent wall to break the monotony—because it draws strong attention and high energy.</div>
+                <div class="alert alert-warning" role="alert">
+                     Warning (Light Yellow): Represents brightness, cheerfulness, and solar energy. It provides visual illumination and conveys warmth and optimism, commonly used in kitchens or bright spaces.</div>
+                <div class="alert alert-info" role="alert">
+                     Info (Light Cyan): Represents serenity, freshness, and purity. Resembling clear skies or water, it is used to give a sense of openness and good ventilation in tight spaces.</div>
+               <div class="alert alert-light" role="alert">
+                     Light (Off-White / Light Grayish White): Represents purity, simplicity, and spaciousness. It is one of the most popular paint colors because it reflects light brilliantly, making small spaces look larger and more open. 
+               </div>
+               <div class="alert alert-dark" role="alert">
+                     Dark (Dark Gray / Charcoal): Represents luxury, drama, and boldness. It is used to add an elegant, contemporary touch, frequently applied to a featured accent wall to showcase sophisticated details.</div>
+
+ <button onclick="darkMode() " class="btn btn-success">Dark mode</button>
+  <p class="85"> that's me</p>
+  <div class="os"> </div>
+
+
+
+        <section class="painting_bg" class="py-5 bg-light" >
+  <div class="container py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5 bg-white">
+          <div class="text-center mb-4">
+            <span class="badge bg-dark text-warning px-3 py-2 rounded-pill mb-2">Direct Support</span>
+            <h3 class="fw-bold text-dark">Send a Consultation Inquiry</h3>
+            <p class="text-muted small">Have a question or need professional guidance? Fill out the form below to connect instantly via WhatsApp.</p>
+          </div>
+
+          <form id="consultationForm">
+            <div class="mb-3">
+              <label for="consultName" class="form-label fw-bold text-secondary">Full Name</label>
+              <input type="text" id="consultName" class="form-control" placeholder="Enter your full name" required>
+            </div>
+
+       -+     <div class="mb-3">
+              <label for="consultPhone" class="form-label fw-bold text-secondary">Phone / WhatsApp Number</label>
+              <input type="tel" id="consultPhone" class="form-control" placeholder="e.g., +967775580028" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="consultMessage" class="form-label fw-bold text-secondary">Inquiry / Message</label>
+              <textarea id="consultMessage" class="form-control" rows="4" placeholder="Write your consultation or inquiry details here…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-warning w-100 rounded-pill fw-bold py-2 text-dark shadow-sm">
+              <i class="fa-brands fa-whatsapp me-2"></i> Send Inquiry via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+             
+   <script src="painting.js"></script>
+ <script src="painting bootstrap.bundle.min.js"></script>
+
+
+</body> 
+</html>

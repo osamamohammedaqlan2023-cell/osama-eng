@@ -1,0 +1,26 @@
+
+ul{
+    Display: flex;
+    justify-content: space-evenly;
+list-style: none;
+text-decoration:none;
+}
+
+
+
+li  a {
+     font-weight:bolder ;
+    color: maroon; 
+    text-decoration: none;
+}
+div{
+justify-content: space-evenly;
+text-align: center ;
+}
+.ww{
+
+width: 300px;
+height: 150px;
+
+
+}

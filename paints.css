@@ -1,0 +1,146 @@
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+list-style: none;
+/*text-decoration:none*/ ;
+
+}
+
+ul a{
+font-weight:bolder ;
+    color: maroon;
+    text-decoration: none; 
+}
+#85{
+    color: red;
+}
+div{
+font-size:18 ;
+font-weight:bolder;
+text-align: center;
+color: maroon;
+}
+div p{
+    color: rgb(0, 0, 0);
+ }
+/* 
+h1{
+    color: maroon;
+    font-size: 14;
+} */
+
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    /* margin-top: 50px; */
+}
+
+.hero{
+
+    background-color: #ffffff;
+ }
+
+
+.about-section {
+background-image: url(photot/55.jpg);
+ Padding: 80px 5%;
+ Background-color: #E3F2FD;
+ Text-align: center;
+}
+.about-section h2 { Font-size: 32px;
+ Margin-bottom: 40px;
+ Color:maroon;
+}
+.about-card {
+ Background: #f9f9f9;
+ Max-width: 450px;
+ Margin: 0 auto;
+ Padding: 30px;
+ Border-radius: 12px;
+ Box-shadow: 0 4px 15px rgba(2, 0, 0, 0.08);
+ Transition: transform 0.3s ease;
+ /* transtion: ; */
+}
+.about-card:hover {
+ transform: translateY(-5px);
+}
+.card-icon {
+ Font-size: 40px;
+ Margin-bottom: 15px;
+}
+.about-card h3 {
+ Font-size: 20px; Color: maroon;
+ Margin-bottom: 15px;
+}
+.about-card p {
+ Font-size: 16px;
+ Color: #555;
+ Line-height: 1.6;
+}
+
+
+.services-section {
+ Padding: 80px 5%;
+ Background-color:#87cEEB;
+ Text-align:center;
+}
+.services-section h2 {
+ Font-size: 32px;
+ Color: #2c3e50;
+ Margin-bottom: 10px;
+}
+.section-subtitle {
+ Font-size: 16px;
+ Color: #100606;
+ Margin-bottom: 40px;
+}
+.services-grid {
+ Display: grid;
+ Grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ Gap: 30px ;
+ Max-width: 1100px; Margin: 0 auto;
+}
+.service-card {
+ Background: #f9f9f9;
+ Padding: 30px 20px;
+ Border-radius: 12px;
+ Box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+ Transition: transform 0.3s ease, box-shadow 0.3s ease;
+ Border-top: 4px solid #3498db;
+}
+.service-card:hover {
+ Transform: translatex(-8px);
+ Box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+.service-icon {
+ Font-size: 40px;
+ Margin-bottom: 15px;
+}
+.service-card h3 {
+
+ Font-size: 20px;
+ Color:maroon
+ Margin-bottom: 12px;}
+.service-card p {
+    
+ Font-size: 15px;
+ Color: #555;
+ Line-height: 1.6;
+ 
+}
+body{
+
+
+}
+.dark{
+background-color: black;
+color: white;
+
+}
+body{
+
+    background-image: url(photot/5.jpg);
+}
